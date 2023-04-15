@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('/fonts/Poppins/Poppins-Regular.ttf'); */
+
+/* src: url("/fonts/Montserrat/static/Montserrat-Regular.ttf"); */
+
+@font-face {
+  font-family: "POPPINS";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
