@@ -7,6 +7,6 @@
 /* src: url("/fonts/Montserrat/static/Montserrat-Regular.ttf"); */
 
 @font-face {
-  font-family: "POPPINS";
-  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  font-family: 'POPPINS';
+  src: url('/fonts/Poppins/Poppins-Regular.ttf');
 }

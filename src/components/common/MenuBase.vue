@@ -3,8 +3,8 @@
     <ul class="px-8">
       <RouterLink :to="menu.ruta" v-for="(menu, index) in menus" :key="index">
         <li
-          class="p-3 mt-0 rounded-xl flex items-center hover:bg-blue-300 text-blue-300 hover:text-white"
-          :class="$router.currentRoute.value.fullPath === menu.ruta ? 'bg-blue-400' : ''"
+          class="p-3 mt-0 rounded-xl flex items-center text-blue-300 hover:text-white"
+          :class="$router.currentRoute.value.fullPath === menu.ruta ? 'bg-blue-50 bg-opacity-20' : 'hover:text-white'"
         >
           <div
             class="text-xl p-2 font-extrabold flex"
@@ -13,7 +13,7 @@
             "
           >
             <font-awesome-icon :icon="menu.icon" class="pr-4"></font-awesome-icon>
-            <span class="font-medium text-sm">{{ menu.name }}</span>
+            <span class="font-semibold text-sm">{{ menu.name }}</span>
           </div>
         </li>
       </RouterLink>

@@ -1,15 +1,29 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
-/* import the fontawesome core */
+import VueApexCharts from "vue3-apexcharts";
 import { library } from '@fortawesome/fontawesome-svg-core'
-
-/* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faUserSecret, faHome, faBalanceScale, faUsers, faGear, faIdCard, faMoneyBills } from '@fortawesome/free-solid-svg-icons'
+import {
+  faUserSecret,
+  faHome,
+  faBalanceScale,
+  faUsers,
+  faGear,
+  faIdCard,
+  faMoneyBills,
+  faRocket,
+  faUserTie,
+  faPowerOff,
+  faCircleQuestion,
+  faEnvelope,
+  faBell,
+  faUserCircle,
+  faBox,
+  faBoxes
+} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faUserSecret, faHome, faBalanceScale, faUsers, faGear, faIdCard, faMoneyBills)
+library.add(faUserSecret, faHome, faBalanceScale, faUsers, faGear, faIdCard, faMoneyBills, faRocket, faUserTie, faPowerOff, faCircleQuestion, faEnvelope, faBell, faUserCircle, faBox, faBoxes)
 
 
 
@@ -22,6 +36,8 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+app.use(VueApexCharts);
+
 app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.mount('#app')
