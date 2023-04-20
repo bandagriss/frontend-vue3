@@ -19,7 +19,10 @@ export const theme = {
     fontFamily: {
       poppins: ['POPPINS']
     },
-    colors: { ...colors }
+    colors: { ...colors },
+    backgroundImage: {
+      'fondo-login': "url('/img/fondo_login.jpg')"
+    }
   },
   colors: {
     primary: '#506df5',

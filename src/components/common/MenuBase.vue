@@ -3,8 +3,8 @@
     <ul class="px-8">
       <RouterLink :to="menu.ruta" v-for="(menu, index) in menus" :key="index">
         <li
-          class="p-3 mt-0 rounded-xl flex items-center text-blue-300 hover:text-white"
-          :class="$router.currentRoute.value.fullPath === menu.ruta ? 'bg-blue-50 bg-opacity-20' : 'hover:text-white'"
+          class="p-3 mt-0 rounded-xl flex items-center text-primary hover:text-white"
+          :class="$router.currentRoute.value.fullPath === menu.ruta ? 'bg-blue-500' : 'hover:text-white hover:bg-blue-400'"
         >
           <div
             class="text-xl p-2 font-extrabold flex"

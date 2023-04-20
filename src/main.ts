@@ -20,10 +20,13 @@ import {
   faBell,
   faUserCircle,
   faBox,
-  faBoxes
+  faBoxes,
+  faPlay,
+  faUser,
+  faKey
 } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faUserSecret, faHome, faBalanceScale, faUsers, faGear, faIdCard, faMoneyBills, faRocket, faUserTie, faPowerOff, faCircleQuestion, faEnvelope, faBell, faUserCircle, faBox, faBoxes)
+library.add(faUserSecret, faHome, faBalanceScale, faUsers, faGear, faIdCard, faMoneyBills, faRocket, faUserTie, faPowerOff, faCircleQuestion, faEnvelope, faBell, faUserCircle, faBox, faBoxes, faPlay, faUser, faKey)
 
 
 

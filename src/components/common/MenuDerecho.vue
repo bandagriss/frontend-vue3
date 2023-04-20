@@ -1,26 +1,26 @@
 <template>
-  <div class="flex flex-col w-min pr-8 pl-5 overflow-y-auto flex-none">
+  <div class="flex flex-col w-min pr-8 pl-5 overflow-y-auto flex-none bg-blue-100 rounded-xl">
     <!-- quitando w-1/5 -->
     <div
       class="flex justify-end items-center h-14 w-full mt-4 space-x-2 md:space-x-4 lg:space-x-4 xl:space-x-8"
     >
       <font-awesome-icon
         icon="circle-question"
-        class="text-white text-xl cursor-pointer"
+        class="text-primary text-xl cursor-pointer"
       ></font-awesome-icon>
       <font-awesome-icon
         icon="envelope"
-        class="text-white text-xl cursor-pointer"
+        class="text-primary text-xl cursor-pointer"
       ></font-awesome-icon>
       <font-awesome-icon
         icon="bell"
-        class="text-white text-xl cursor-pointer"
+        class="text-primary text-xl cursor-pointer"
       ></font-awesome-icon>
       <div class="pl-4">
         <button ref="dropdownButton" class="hover:opacity-50">
           <font-awesome-icon
             icon="user-circle"
-            class="text-4xl text-white cursor-pointer"
+            class="text-4xl text-primary cursor-pointer"
           ></font-awesome-icon>
         </button>
         <!-- Dropdown menu -->
@@ -74,7 +74,7 @@
       ></div>
       <!-- tareas -->
       <div class="w-full space-y-2 mt-2">
-        <h3 class="text-white text-lg">Tasks</h3>
+        <h3 class="text-primary text-lg">Tasks</h3>
         <a
           href="#"
           class="w-full block p-2 bg-white rounded-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 border-l-[0.8rem] border-l-cyan-600"
@@ -102,7 +102,7 @@
       </div>
       <!-- mensajes -->
       <div class="w-full space-y-2 py-4">
-        <h3 class="text-white text-lg">Messages</h3>
+        <h3 class="text-primary text-lg">Messages</h3>
         <a
           href="#"
           class="w-full block p-2 bg-white rounded-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 border-l-[0.8rem] border-l-success"

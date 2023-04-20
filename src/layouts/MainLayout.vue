@@ -6,19 +6,19 @@
     <span class="text-success border-success"></span>
     <span class="text-secondary border-secondary"></span>
     <span class="text-warning border-warning"></span>
-    <div class="w-full h-full bg-primary flex flex-row">
+    <div class="w-full h-full bg-white flex flex-row p-2">
       <!-- menu -->
-      <div class="w-80 flex-none h-full hidden md:block">
+      <div class="w-80 flex-none h-full hidden md:block bg-blue-100 rounded-xl">
         <div
           class="h-2/6 w-full flex flex-col space-y-4 justify-center items-center"
         >
           <font-awesome-icon
             icon="user-tie"
-            class="text-9xl text-white"
+            class="text-9xl text-primary brightness-110"
           ></font-awesome-icon>
           <div class="text-center">
-            <p class="text-xl text-white">Juan Ramirez</p>
-            <p class="text-sm text-sky-200">Administrador</p>
+            <p class="text-xl text-primary font-medium">Juan Ramirez</p>
+            <p class="text-sm text-gray-500">Administrador</p>
           </div>
         </div>
         <div class="h-3/6 w-full">
@@ -29,7 +29,7 @@
             <ul class="px-8">
               <RouterLink to="/login">
                 <li
-                  class="bg-blue-700 bg-opacity-40 p-3 mt-0 rounded-xl flex items-center hover:bg-blue-300 text-white hover:text-white"
+                  class="bg-primary p-3 mt-0 rounded-xl flex items-center hover:bg-blue-300 text-white hover:text-white"
                 >
                   <div class="text-xl p-2 font-extrabold flex">
                     <font-awesome-icon
@@ -46,7 +46,7 @@
       </div>
       <!-- container -->
       <div
-        class="pt-1 md:pt-4 pr-1 md:pr-4 pb-1 md:pb-4 pl-1 md:pl-0 w-4/5 h-full"
+        class="pt-1 md:pt-0 pr-1 md:pr-1 pb-1 md:pb-0 pl-1 md:pl-1 w-4/5 h-full"
       >
         <div class="bg-[#f7f8fc] w-full h-full rounded-3xl">
           <div class="w-full h-full p-8">

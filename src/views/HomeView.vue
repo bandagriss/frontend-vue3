@@ -29,7 +29,7 @@
       </div>
     </div>
     <!-- grafica -->
-    <h1 class="mt-8 text-xl font-semibold text-gray-700">Reports</h1>
+    <h1 class="mt-8 text-xl font-semibold text-gray-500">Reports</h1>
     <div
       class="grid grid-cols-1 gap-2 mt-4 md:grid-cols-1 lg:grid-cols-1 2xl:grid-cols-2"
     >
@@ -51,7 +51,7 @@
       </div>
     </div>
     <!-- actualizaciones -->
-    <h1 class="mt-6 text-xl font-semibold text-gray-700">Updates</h1>
+    <h1 class="mt-6 text-xl font-semibold text-gray-500">Updates</h1>
     <div class="relative overflow-x-auto mt-3">
       <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead
